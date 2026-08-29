@@ -762,6 +762,11 @@
         <div>公私協力合作推動健康台灣生態系論壇</div>
         <a href="https://itriahmci-sys.github.io/2024_Healthy_Taiwan_Ecosystem/" target="_blank" rel="noopener">前往論壇專頁 →</a>
       </div>
+            <div class="forum-card reveal">
+        <div class="yr">2023</div>
+        <div>精準健康跨域論壇</div>
+        <a href="https://itriahmci-sys.github.io/2023_Precision_Health_Econsystem/" target="_blank" rel="noopener">前往論壇專頁 →</a>
+      </div>
       <div class="forum-card reveal">
         <div class="yr">🎙</div>
         <div>聯盟 Podcast</div>
@@ -797,6 +802,7 @@
         <a href="https://itriahmci-sys.github.io/2026_HaH_Medcare_Special_Issue/" target="_blank" rel="noopener">2026 論壇</a>
         <a href="https://itriahmci-sys.github.io/2025_healthy_Taiwan_Special_Issue/" target="_blank" rel="noopener">2025 論壇</a>
         <a href="https://itriahmci-sys.github.io/2024_Healthy_Taiwan_Ecosystem/" target="_blank" rel="noopener">2024 論壇</a>
+           <a href="https://itriahmci-sys.github.io/2023_Precision_Health_Econsystem/" target="_blank" rel="noopener">2023 論壇 →</a>
         <a href="https://open.firstory.me/user/cmadfxoxs07gt01yz2qtug9ne/platforms" target="_blank" rel="noopener">聯盟 Podcast</a>
         <a href="https://www.cw.com.tw/feature/topic/aging/aging-itri" target="_blank" rel="noopener">銀天下工研院專欄</a>
       </div>
