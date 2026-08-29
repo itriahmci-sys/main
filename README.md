@@ -746,7 +746,7 @@
       <span class="eyebrow">Media &amp; Forum</span>
       <h2>歷年產業論壇、聯盟 Podcast 與媒體專欄</h2>
     </div>
-    <div class="forum-row" style="grid-template-columns:repeat(5,1fr);">
+    <div class="forum-row" style="grid-template-columns:repeat(6,1fr);">
       <div class="forum-card reveal">
         <div class="yr">2026</div>
         <div>在宅醫療 × 金融保險論壇</div>
