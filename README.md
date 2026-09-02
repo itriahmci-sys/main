@@ -762,7 +762,7 @@
         <div>公私協力合作推動健康台灣生態系論壇</div>
         <a href="https://itriahmci-sys.github.io/2024_Healthy_Taiwan_Ecosystem/" target="_blank" rel="noopener">前往論壇專頁 →</a>
       </div>
-            <div class="forum-card reveal">
+        <div class="forum-card reveal">
         <div class="yr">2023</div>
         <div>精準健康跨域論壇</div>
         <a href="https://itriahmci-sys.github.io/2023_Precision_Health_Econsystem/" target="_blank" rel="noopener">前往論壇專頁 →</a>
