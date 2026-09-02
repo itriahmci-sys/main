@@ -702,7 +702,7 @@
         <h2>會員方案</h2>
         <p>三種參與方式，讓不同規模與投入程度的夥伴都能加入聯盟共創行列。</p>
       </div>
-      <a class="btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfmtKxwq3vDrloZFSGNYRkOmw9lGMGqi8Ejpu7P1vik0rffoQ/viewform?usp=header" target="_blank" rel="noopener" style="flex-shrink:0;">填寫入會申請</a>
+      <a class="btn-primary" href="https://itriahmci-sys.github.io/applyform/" target="_blank" rel="noopener" style="flex-shrink:0;">填寫入會申請</a>
     </div>
     <div class="plan-grid">
       <div class="plan-card reveal">
