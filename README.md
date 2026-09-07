@@ -290,6 +290,7 @@
       <li><a href="#tech">智能照護</a></li>
       <li><a href="#network">照護網絡</a></li>
       <li><a href="#org">組織架構</a></li>
+      <li><a href="#policy-cases">政策及案例研究</a></li>
       <li><a href="#plans">會員方案</a></li>
     </ul>
     <a class="nav-cta" href="#plans">加入聯盟</a>
@@ -661,6 +662,44 @@
   </div>
 </section>
 
+<!-- POLICY & CASE STUDIES -->
+<section id="policy-cases" style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Policy &amp; Case Studies</span>
+      <h2>政策及案例研究</h2>
+      <p>彙整整合照護政策方向，以及國際失智預防與照護案例，作為聯盟推動政策倡議與服務設計的參考基礎。</p>
+    </div>
+    <div class="forum-row" style="grid-template-columns:repeat(3,1fr);">
+      <div class="forum-card reveal">
+        <div class="yr">📋</div>
+        <div>整合照護政策</div>
+        <a href="https://itriahmci-sys.github.io/Policy/" target="_blank" rel="noopener">前往內容 →</a>
+      </div>
+      <div class="forum-card reveal">
+        <div class="yr">🇫🇮</div>
+        <div>芬蘭失智預防照護（FINGER）</div>
+        <a href="https://itriahmci-sys.github.io/Finland_FINGER_casestudy/" target="_blank" rel="noopener">前往內容 →</a>
+      </div>
+      <div class="forum-card reveal">
+        <div class="yr">🇦🇺</div>
+        <div>澳洲失智行動地圖（ADNet）</div>
+        <a href="https://itriahmci-sys.github.io/Australia_ADNet/" target="_blank" rel="noopener">前往內容 →</a>
+      </div>
+      <div class="forum-card reveal">
+        <div class="yr">💰</div>
+        <div>失智症的經濟代價</div>
+        <a href="https://itriahmci-sys.github.io/Dematia_EconomicLoss/" target="_blank" rel="noopener">前往內容 →</a>
+      </div>
+      <div class="forum-card reveal">
+        <div class="yr">💼</div>
+        <div>健康、就業與勞動收入</div>
+        <a href="https://itriahmci-sys.github.io/Health_Income_Empolyment/" target="_blank" rel="noopener">前往內容 →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ROADMAP -->
 <section id="roadmap">
   <div class="wrap">
@@ -795,6 +834,7 @@
         <h5>快速連結</h5>
         <a href="#about">關於聯盟</a>
         <a href="#cases">共創實績</a>
+        <a href="#policy-cases">政策及案例研究</a>
         <a href="#plans">會員方案</a>
       </div>
       <div class="foot-col">
