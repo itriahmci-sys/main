@@ -789,22 +789,22 @@
       <div class="forum-card reveal">
         <div class="yr">2026</div>
         <div>在宅醫療 × 金融保險論壇</div>
-        <a href="forum/2026Q3" target="_blank" rel="noopener">前往論壇專頁 →</a>
+        <a href="forum/2026Q3.html" target="_blank" rel="noopener">前往論壇專頁 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">2025</div>
         <div>引領健康台灣新未來論壇</div>
-        <a href="forum/2025Q4" target="_blank" rel="noopener">前往論壇專頁 →</a>
+        <a href="forum/2025Q4.html" target="_blank" rel="noopener">前往論壇專頁 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">2024</div>
         <div>公私協力合作推動健康台灣生態系論壇</div>
-        <a href="2024/Q4" target="_blank" rel="noopener">前往論壇專頁 →</a>
+        <a href="2024/Q4.html" target="_blank" rel="noopener">前往論壇專頁 →</a>
       </div>
         <div class="forum-card reveal">
         <div class="yr">2023</div>
         <div>精準健康跨域論壇</div>
-        <a href="forum/2023Q4" target="_blank" rel="noopener">前往論壇專頁 →</a>
+        <a href="forum/2023Q4.html" target="_blank" rel="noopener">前往論壇專頁 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">🎙</div>
@@ -839,10 +839,10 @@
       </div>
       <div class="foot-col">
         <h5>歷年論壇</h5>
-        <a href="forum/2026Q3" target="_blank" rel="noopener">2026 論壇</a>
-        <a href="forum/2025Q4" target="_blank" rel="noopener">2025 論壇</a>
-        <a href="forum/2024Q4" target="_blank" rel="noopener">2024 論壇</a>
-        <a href="forum/2023Q4" target="_blank" rel="noopener">2023 論壇 →</a>
+        <a href="forum/2026Q3.html" target="_blank" rel="noopener">2026 論壇</a>
+        <a href="forum/2025Q4.html" target="_blank" rel="noopener">2025 論壇</a>
+        <a href="forum/2024Q4.html" target="_blank" rel="noopener">2024 論壇</a>
+        <a href="forum/2023Q4.html" target="_blank" rel="noopener">2023 論壇 →</a>
         <a href="https://open.firstory.me/user/cmadfxoxs07gt01yz2qtug9ne/platforms" target="_blank" rel="noopener">聯盟 Podcast</a>
         <a href="https://www.cw.com.tw/feature/topic/aging/aging-itri" target="_blank" rel="noopener">銀天下工研院專欄</a>
       </div>
