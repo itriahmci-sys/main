@@ -674,27 +674,27 @@
       <div class="forum-card reveal">
         <div class="yr">📋</div>
         <div>整合照護政策</div>
-        <a href="https://itriahmci-sys.github.io/Policy/" target="_blank" rel="noopener">前往內容 →</a>
+        <a href="https://itriahmci-sys.github.io/Policy_Flowchart/" target="_blank" rel="noopener">前往內容 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">🇫🇮</div>
         <div>芬蘭失智預防照護（FINGER）</div>
-        <a href="https://itriahmci-sys.github.io/Finland_FINGER_casestudy/" target="_blank" rel="noopener">前往內容 →</a>
+        <a href="Case_Studies/Finland_FINGER" target="_blank" rel="noopener">前往內容 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">🇦🇺</div>
         <div>澳洲失智行動地圖（ADNet）</div>
-        <a href="https://itriahmci-sys.github.io/Australia_ADNet/" target="_blank" rel="noopener">前往內容 →</a>
+        <a href="Case_Studies/Australian_ADNet/" target="_blank" rel="noopener">前往內容 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">💰</div>
         <div>失智症的經濟代價</div>
-        <a href="https://itriahmci-sys.github.io/Dematia_EconomicLoss/" target="_blank" rel="noopener">前往內容 →</a>
+        <a href="Case_Studies/Dematia_EcoLoss/" target="_blank" rel="noopener">前往內容 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">💼</div>
         <div>健康、就業與勞動收入</div>
-        <a href="https://itriahmci-sys.github.io/Health_Income_Empolyment/" target="_blank" rel="noopener">前往內容 →</a>
+        <a href="Case_Study/Income&Health" target="_blank" rel="noopener">前往內容 →</a>
       </div>
     </div>
   </div>
@@ -741,7 +741,7 @@
         <h2>會員方案</h2>
         <p>三種參與方式，讓不同規模與投入程度的夥伴都能加入聯盟共創行列。</p>
       </div>
-      <a class="btn-primary" href="https://itriahmci-sys.github.io/applyform/" target="_blank" rel="noopener" style="flex-shrink:0;">填寫入會申請</a>
+      <a class="btn-primary" href="adminstration/apply" target="_blank" rel="noopener" style="flex-shrink:0;">填寫入會申請</a>
     </div>
     <div class="plan-grid">
       <div class="plan-card reveal">
@@ -789,22 +789,22 @@
       <div class="forum-card reveal">
         <div class="yr">2026</div>
         <div>在宅醫療 × 金融保險論壇</div>
-        <a href="https://itriahmci-sys.github.io/2026_HaH_Medcare_Special_Issue/" target="_blank" rel="noopener">前往論壇專頁 →</a>
+        <a href="forum/2026Q3" target="_blank" rel="noopener">前往論壇專頁 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">2025</div>
         <div>引領健康台灣新未來論壇</div>
-        <a href="https://itriahmci-sys.github.io/2025_healthy_Taiwan_Special_Issue/" target="_blank" rel="noopener">前往論壇專頁 →</a>
+        <a href="forum/2025Q4" target="_blank" rel="noopener">前往論壇專頁 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">2024</div>
         <div>公私協力合作推動健康台灣生態系論壇</div>
-        <a href="https://itriahmci-sys.github.io/2024_Healthy_Taiwan_Ecosystem/" target="_blank" rel="noopener">前往論壇專頁 →</a>
+        <a href="2024/Q4" target="_blank" rel="noopener">前往論壇專頁 →</a>
       </div>
         <div class="forum-card reveal">
         <div class="yr">2023</div>
         <div>精準健康跨域論壇</div>
-        <a href="https://itriahmci-sys.github.io/2023_Precision_Health_Econsystem/" target="_blank" rel="noopener">前往論壇專頁 →</a>
+        <a href="forum/2023Q4" target="_blank" rel="noopener">前往論壇專頁 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">🎙</div>
@@ -839,10 +839,10 @@
       </div>
       <div class="foot-col">
         <h5>歷年論壇</h5>
-        <a href="https://itriahmci-sys.github.io/2026_HaH_Medcare_Special_Issue/" target="_blank" rel="noopener">2026 論壇</a>
-        <a href="https://itriahmci-sys.github.io/2025_healthy_Taiwan_Special_Issue/" target="_blank" rel="noopener">2025 論壇</a>
-        <a href="https://itriahmci-sys.github.io/2024_Healthy_Taiwan_Ecosystem/" target="_blank" rel="noopener">2024 論壇</a>
-           <a href="https://itriahmci-sys.github.io/2023_Precision_Health_Econsystem/" target="_blank" rel="noopener">2023 論壇 →</a>
+        <a href="forum/2026Q3" target="_blank" rel="noopener">2026 論壇</a>
+        <a href="forum/2025Q4" target="_blank" rel="noopener">2025 論壇</a>
+        <a href="forum/2024Q4" target="_blank" rel="noopener">2024 論壇</a>
+        <a href="forum/2023Q4" target="_blank" rel="noopener">2023 論壇 →</a>
         <a href="https://open.firstory.me/user/cmadfxoxs07gt01yz2qtug9ne/platforms" target="_blank" rel="noopener">聯盟 Podcast</a>
         <a href="https://www.cw.com.tw/feature/topic/aging/aging-itri" target="_blank" rel="noopener">銀天下工研院專欄</a>
       </div>
