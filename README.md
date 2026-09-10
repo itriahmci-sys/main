@@ -679,22 +679,22 @@
       <div class="forum-card reveal">
         <div class="yr">🇫🇮</div>
         <div>芬蘭失智預防照護（FINGER）</div>
-        <a href="Case_Studies/Finland_FINGER" target="_blank" rel="noopener">前往內容 →</a>
+        <a href="Case_Studies/Finland_FINGER.html" target="_blank" rel="noopener">前往內容 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">🇦🇺</div>
         <div>澳洲失智行動地圖（ADNet）</div>
-        <a href="Case_Studies/Australian_ADNet/" target="_blank" rel="noopener">前往內容 →</a>
+        <a href="Case_Studies/Australian_ADNet.html/" target="_blank" rel="noopener">前往內容 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">💰</div>
         <div>失智症的經濟代價</div>
-        <a href="Case_Studies/Dematia_EcoLoss/" target="_blank" rel="noopener">前往內容 →</a>
+        <a href="Case_Studies/Dematia_EcoLoss.html/" target="_blank" rel="noopener">前往內容 →</a>
       </div>
       <div class="forum-card reveal">
         <div class="yr">💼</div>
         <div>健康、就業與勞動收入</div>
-        <a href="Case_Study/Income&Health" target="_blank" rel="noopener">前往內容 →</a>
+        <a href="Case_Study/Income&Health.html" target="_blank" rel="noopener">前往內容 →</a>
       </div>
     </div>
   </div>
@@ -741,7 +741,7 @@
         <h2>會員方案</h2>
         <p>三種參與方式，讓不同規模與投入程度的夥伴都能加入聯盟共創行列。</p>
       </div>
-      <a class="btn-primary" href="adminstration/apply" target="_blank" rel="noopener" style="flex-shrink:0;">填寫入會申請</a>
+      <a class="btn-primary" href="adminstration/apply.html" target="_blank" rel="noopener" style="flex-shrink:0;">填寫入會申請</a>
     </div>
     <div class="plan-grid">
       <div class="plan-card reveal">
