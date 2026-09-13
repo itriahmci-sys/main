@@ -118,20 +118,30 @@ article.piece:first-of-type{border-top:none;padding-top:34px;}
 .feedback-row .q{font-size:14.5px;color:var(--navy);flex:0 0 auto;min-width:180px;}
 .feedback-btns{display:flex;gap:8px;}
 .fb-btn{
+  cursor:pointer;
+  transition:all 0.2s ease;
   border:1px solid var(--line);
-  background:#fff;
+  background-color:#fff;
   border-radius:20px;
   padding:7px 16px;
   font-size:14px;
-  cursor:pointer;
   display:flex;align-items:center;gap:7px;
   color:var(--ink);
-  transition:border-color .15s, background .15s;
 }
-.fb-btn:hover{border-color:var(--teal);}
-.fb-btn.active{background:var(--teal);border-color:var(--teal);color:#fff;}
-.fb-btn.active.neg{background:#B4552F;border-color:#B4552F;}
-.fb-count{font-size:12px;opacity:.75;}
+.fb-btn:hover{background-color:var(--paper-tint);}
+.fb-btn.active[data-type="like"]{
+  background-color:#E6F4EA;
+  color:#137333;
+  border-color:#137333;
+  font-weight:bold;
+}
+.fb-btn.active[data-type="dislike"]{
+  background-color:#FCE8E6;
+  color:#C5221F;
+  border-color:#C5221F;
+  font-weight:bold;
+}
+.fb-btn .count{margin-left:4px;opacity:.8;font-size:12px;}
 .feedback textarea{
   width:100%;
   border:1px solid var(--line);
@@ -226,13 +236,13 @@ footer{background:var(--navy);color:#CBD6D4;padding:48px 24px 40px;margin-top:20
   <p style="font-size:13px;color:var(--ink-soft);margin-top:-16px;">活動花絮：莊曜宇秘書長與薛瑞元前部長於會中致詞，指出台灣健保雖以高覆蓋率與效率著稱，但邁入超高齡社會後浮現「醫療孤島」問題，都市老舊公寓與偏鄉皆有高齡、失能者難以就醫。政府因此推動在宅醫療，打造「在家住院」新模式，使醫療體系從醫院為中心轉向住家為中心。商業健康保險從補充保障角色轉型為在宅醫療重要夥伴，與健保共同支持新照護模式。</p>
 
   
-<div class="feedback" data-article="00">
+<div class="feedback" data-article-id="article-00">
   <p class="feedback-title">告訴我們這篇報導對您是否有幫助</p>
   <div class="feedback-row">
     <span class="q">是否有幫助？</span>
     <div class="feedback-btns">
-      <button class="fb-btn" data-q="helpful" data-value="up">👍 讚 <span class="fb-count count-up">0</span></button>
-      <button class="fb-btn" data-q="helpful" data-value="down">👎 踩 <span class="fb-count count-down">0</span></button>
+      <button type="button" class="fb-btn" data-type="like">👍 讚 <span class="count">(0)</span></button>
+      <button type="button" class="fb-btn" data-type="dislike">👎 踩 <span class="count">(0)</span></button>
     </div>
   </div>
 </div>
@@ -255,13 +265,13 @@ footer{background:var(--navy);color:#CBD6D4;padding:48px 24px 40px;margin-top:20
   <p>　　新加坡透過政府引導與商保 Integrated Plans 的無縫銜接成為典範，台灣在面對人口老化與自費浪費的挑戰時，已退無可退。不論未來的選擇是擴大現行健保規模，或是推動公私協力的政策險，實證數據是討論的基本工具，而政策的落實最終仍取決於政府的「政治決心（political will）」。正如經典電影所言，「若你建好了，他們就會來（If you build it, they will come）」。</p>
 
   
-<div class="feedback" data-article="01">
+<div class="feedback" data-article-id="article-01">
   <p class="feedback-title">告訴我們這篇報導對您是否有幫助</p>
   <div class="feedback-row">
     <span class="q">是否有幫助？</span>
     <div class="feedback-btns">
-      <button class="fb-btn" data-q="helpful" data-value="up">👍 讚 <span class="fb-count count-up">0</span></button>
-      <button class="fb-btn" data-q="helpful" data-value="down">👎 踩 <span class="fb-count count-down">0</span></button>
+      <button type="button" class="fb-btn" data-type="like">👍 讚 <span class="count">(0)</span></button>
+      <button type="button" class="fb-btn" data-type="dislike">👎 踩 <span class="count">(0)</span></button>
     </div>
   </div>
 </div>
@@ -283,13 +293,13 @@ footer{background:var(--navy);color:#CBD6D4;padding:48px 24px 40px;margin-top:20
   <p>　　台灣自 2024 年推動在宅急症照護試辦，雖有近九成病人順利完成療程，但商保對接仍面臨契約定義未接軌、公私給付邊界不明及精算理賠資料不完整三大挑戰。王主任提出「先建制度、再擴商品」的三階段推行策略，從釐清公私給付邊界開始，先推動「30日出院轉銜照護包」等小規模試辦；最終透過 AI＋IoT 遠端監測升級創新保單，並在去識別化前提下共享健保群體風險數據。</p>
 
   
-<div class="feedback" data-article="02">
+<div class="feedback" data-article-id="article-02">
   <p class="feedback-title">告訴我們這篇報導對您是否有幫助</p>
   <div class="feedback-row">
     <span class="q">是否有幫助？</span>
     <div class="feedback-btns">
-      <button class="fb-btn" data-q="helpful" data-value="up">👍 讚 <span class="fb-count count-up">0</span></button>
-      <button class="fb-btn" data-q="helpful" data-value="down">👎 踩 <span class="fb-count count-down">0</span></button>
+      <button type="button" class="fb-btn" data-type="like">👍 讚 <span class="count">(0)</span></button>
+      <button type="button" class="fb-btn" data-type="dislike">👎 踩 <span class="count">(0)</span></button>
     </div>
   </div>
 </div>
@@ -311,13 +321,13 @@ footer{background:var(--navy);color:#CBD6D4;padding:48px 24px 40px;margin-top:20
   <p>　　迎向「百歲人生」，南山人壽正配合台灣在宅急症試辦計畫，針對肺炎等三種急症研發在宅住院保單。南山透過「健康守護圈」整合 IoT 生理監測與輔具租賃、居家改造等實務給付，將保險由「被動支付者」重塑為「照護資源整合者」。王保勲強調，未來應透過沙盒試辦與去識別化數據共享，明確保障邊界。</p>
 
   
-<div class="feedback" data-article="03">
+<div class="feedback" data-article-id="article-03">
   <p class="feedback-title">告訴我們這篇報導對您是否有幫助</p>
   <div class="feedback-row">
     <span class="q">是否有幫助？</span>
     <div class="feedback-btns">
-      <button class="fb-btn" data-q="helpful" data-value="up">👍 讚 <span class="fb-count count-up">0</span></button>
-      <button class="fb-btn" data-q="helpful" data-value="down">👎 踩 <span class="fb-count count-down">0</span></button>
+      <button type="button" class="fb-btn" data-type="like">👍 讚 <span class="count">(0)</span></button>
+      <button type="button" class="fb-btn" data-type="dislike">👎 踩 <span class="count">(0)</span></button>
     </div>
   </div>
 </div>
@@ -339,13 +349,13 @@ footer{background:var(--navy);color:#CBD6D4;padding:48px 24px 40px;margin-top:20
   <p>　　為此，他提出必須明確「收案」與「退場」邊界，透過「紅旗指標」（如意識不清、收縮壓不穩等）與合作醫院的「綠色通道」床位無縫接軌。最後，他呼籲健保與商保雙軌協力，健保以沙盒計畫支付定額打包費用，商保則彈性融通「視同住院」理賠，並以外加式保障（如高階居家儀器租賃、24小時看護補助）補足自費缺口。</p>
 
   
-<div class="feedback" data-article="04">
+<div class="feedback" data-article-id="article-04">
   <p class="feedback-title">告訴我們這篇報導對您是否有幫助</p>
   <div class="feedback-row">
     <span class="q">是否有幫助？</span>
     <div class="feedback-btns">
-      <button class="fb-btn" data-q="helpful" data-value="up">👍 讚 <span class="fb-count count-up">0</span></button>
-      <button class="fb-btn" data-q="helpful" data-value="down">👎 踩 <span class="fb-count count-down">0</span></button>
+      <button type="button" class="fb-btn" data-type="like">👍 讚 <span class="count">(0)</span></button>
+      <button type="button" class="fb-btn" data-type="dislike">👎 踩 <span class="count">(0)</span></button>
     </div>
   </div>
 </div>
@@ -368,13 +378,13 @@ footer{background:var(--navy);color:#CBD6D4;padding:48px 24px 40px;margin-top:20
   <p>　　林教授呼籲，短期應調整給付以納入跨團隊誘因並鼓勵通報，中長期則須加強基層數位建設、納入對照組進行健康經濟評估。</p>
 
   
-<div class="feedback" data-article="05">
+<div class="feedback" data-article-id="article-05">
   <p class="feedback-title">告訴我們這篇報導對您是否有幫助</p>
   <div class="feedback-row">
     <span class="q">是否有幫助？</span>
     <div class="feedback-btns">
-      <button class="fb-btn" data-q="helpful" data-value="up">👍 讚 <span class="fb-count count-up">0</span></button>
-      <button class="fb-btn" data-q="helpful" data-value="down">👎 踩 <span class="fb-count count-down">0</span></button>
+      <button type="button" class="fb-btn" data-type="like">👍 讚 <span class="count">(0)</span></button>
+      <button type="button" class="fb-btn" data-type="dislike">👎 踩 <span class="count">(0)</span></button>
     </div>
   </div>
 </div>
@@ -422,13 +432,13 @@ footer{background:var(--navy);color:#CBD6D4;padding:48px 24px 40px;margin-top:20
   </div>
 
   
-<div class="feedback" data-article="06">
+<div class="feedback" data-article-id="article-06">
   <p class="feedback-title">告訴我們這篇報導對您是否有幫助</p>
   <div class="feedback-row">
     <span class="q">是否有幫助？</span>
     <div class="feedback-btns">
-      <button class="fb-btn" data-q="helpful" data-value="up">👍 讚 <span class="fb-count count-up">0</span></button>
-      <button class="fb-btn" data-q="helpful" data-value="down">👎 踩 <span class="fb-count count-down">0</span></button>
+      <button type="button" class="fb-btn" data-type="like">👍 讚 <span class="count">(0)</span></button>
+      <button type="button" class="fb-btn" data-type="dislike">👎 踩 <span class="count">(0)</span></button>
     </div>
   </div>
 </div>
@@ -455,13 +465,13 @@ footer{background:var(--navy);color:#CBD6D4;padding:48px 24px 40px;margin-top:20
   </div>
 
   
-<div class="feedback" data-article="07">
+<div class="feedback" data-article-id="article-07">
   <p class="feedback-title">告訴我們這篇報導對您是否有幫助</p>
   <div class="feedback-row">
     <span class="q">是否有幫助？</span>
     <div class="feedback-btns">
-      <button class="fb-btn" data-q="helpful" data-value="up">👍 讚 <span class="fb-count count-up">0</span></button>
-      <button class="fb-btn" data-q="helpful" data-value="down">👎 踩 <span class="fb-count count-down">0</span></button>
+      <button type="button" class="fb-btn" data-type="like">👍 讚 <span class="count">(0)</span></button>
+      <button type="button" class="fb-btn" data-type="dislike">👎 踩 <span class="count">(0)</span></button>
     </div>
   </div>
 </div>
@@ -489,73 +499,146 @@ footer{background:var(--navy);color:#CBD6D4;padding:48px 24px 40px;margin-top:20
 </footer>
 
 <script>
-(function(){
-  var GOOGLE_FORM_ID = "1FAIpQLSclCpeq_r0Qv_hFJyXW3YGeHqpW0UqvO67mYz3EZwTJ5Tzjfg";
-  var ARTICLE_TO_ENTRY = {"00": "entry.1664057121", "01": "entry.1698213821", "02": "entry.1080414942", "03": "entry.82424104", "04": "entry.1716237229", "05": "entry.1260873886", "06": "entry.1424302985", "07": "entry.881084658"};
+document.addEventListener('DOMContentLoaded', function () {
+  // ---- Google 表單設定（跨裝置彙整統計用，寫入為 best-effort，失敗不影響本機顯示）----
+  const GOOGLE_FORM_ID = "1FAIpQLSclCpeq_r0Qv_hFJyXW3YGeHqpW0UqvO67mYz3EZwTJ5Tzjfg";
+  const ARTICLE_TO_ENTRY = {
+    'article-00': 'entry.1664057121',
+    'article-01': 'entry.1698213821',
+    'article-02': 'entry.1080414942',
+    'article-03': 'entry.82424104',
+    'article-04': 'entry.1716237229',
+    'article-05': 'entry.1260873886',
+    'article-06': 'entry.1424302985',
+    'article-07': 'entry.881084658'
+  };
 
-  function submitToGoogleForm(articleId, value){
-    var entry = ARTICLE_TO_ENTRY[articleId];
-    if(!entry) return;
-    var url = "https://docs.google.com/forms/d/e/" + GOOGLE_FORM_ID + "/formResponse";
-    var body = new URLSearchParams();
-    body.append(entry, value);
-    fetch(url, { method: "POST", mode: "no-cors", body: body }).catch(function(){});
+  // 用「隱藏 iframe + 表單送出」而非 fetch(no-cors)：
+  // 這是瀏覽器原生的表單提交機制，不受 CORS 限制，file:// 本機開啟也能送出，
+  // 也比較不會被瀏覽器擴充功能的攔截規則擋下。
+  function submitToGoogleForm(articleId, value) {
+    const entry = ARTICLE_TO_ENTRY[articleId];
+    if (!entry) return;
+
+    const iframeName = 'gform_target_' + Date.now() + '_' + Math.random().toString(36).slice(2, 7);
+    const iframe = document.createElement('iframe');
+    iframe.name = iframeName;
+    iframe.style.display = 'none';
+    document.body.appendChild(iframe);
+
+    const form = document.createElement('form');
+    form.action = 'https://docs.google.com/forms/d/e/' + GOOGLE_FORM_ID + '/formResponse';
+    form.method = 'POST';
+    form.target = iframeName;
+    form.style.display = 'none';
+
+    const input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = entry;
+    input.value = value;
+    form.appendChild(input);
+
+    document.body.appendChild(form);
+    form.submit();
+
+    // 送出後延遲清除暫用的 DOM 節點
+    setTimeout(function () {
+      form.remove();
+      iframe.remove();
+    }, 5000);
   }
 
-  async function getStat(id){
-    try{
-      const r = await window.storage.get('stat:'+id, true);
-      return r ? JSON.parse(r.value) : {up:0,down:0};
-    }catch(e){ return {up:0,down:0,yes:0,no:0}; }
-  }
-  async function setStat(id, stat){
-    try{ await window.storage.set('stat:'+id, JSON.stringify(stat), true); }catch(e){}
-  }
-  async function saveComment(id, entry){
-    try{
-      const key = 'comment:'+id+':'+Date.now()+':'+Math.random().toString(36).slice(2,7);
-      await window.storage.set(key, JSON.stringify(entry), true);
-    }catch(e){}
-  }
+  // 1. 初始化預設數據（若 LocalStorage 無資料則給予預設值，可自行修改初始數字）
+  const defaultCounts = {
+    'article-00': { like: 0, dislike: 0 },
+    'article-01': { like: 0, dislike: 0 },
+    'article-02': { like: 0, dislike: 0 },
+    'article-03': { like: 0, dislike: 0 },
+    'article-04': { like: 0, dislike: 0 },
+    'article-05': { like: 0, dislike: 0 },
+    'article-06': { like: 0, dislike: 0 },
+    'article-07': { like: 0, dislike: 0 }
+  };
 
-  const localStat = {};
+  // 從 LocalStorage 取得資料，若無則使用預設值
+  let feedbackData = JSON.parse(localStorage.getItem('page_feedback_counts')) || defaultCounts;
+  let userVotes = JSON.parse(localStorage.getItem('page_user_votes')) || {};
 
-  document.querySelectorAll('.feedback').forEach(function(box){
-    const id = box.getAttribute('data-article');
-    localStat[id] = {up:0,down:0};
-    const helpfulBtns = box.querySelectorAll('[data-q="helpful"]');
-    const countUp = box.querySelector('.count-up');
-    const countDown = box.querySelector('.count-down');
-    let voted = false;
+  // 2. 渲染頁面上的點讚數字與使用者選擇狀態
+  function renderFeedback() {
+    document.querySelectorAll('.feedback').forEach(section => {
+      const articleId = section.getAttribute('data-article-id');
+      if (!articleId) return;
 
-    function render(stat){
-      if(countUp) countUp.textContent = stat.up;
-      if(countDown) countDown.textContent = stat.down;
-    }
+      // 確保資料結構存在
+      if (!feedbackData[articleId]) {
+        feedbackData[articleId] = { like: 0, dislike: 0 };
+      }
 
-    getStat(id).then(function(stat){ localStat[id]=stat; render(stat); });
+      const counts = feedbackData[articleId];
+      const userChoice = userVotes[articleId];
 
-    helpfulBtns.forEach(function(btn){
-      btn.addEventListener('click', async function(){
-        if(voted) return;
-        voted = true;
-        helpfulBtns.forEach(b=>b.classList.remove('active'));
-        btn.classList.add('active');
-        if(btn.dataset.value==='down') btn.classList.add('neg');
+      // 更新按鈕文字與狀態
+      section.querySelectorAll('.fb-btn').forEach(btn => {
+        const type = btn.getAttribute('data-type');
+        const countSpan = btn.querySelector('.count');
 
-        const stat = Object.assign({up:0,down:0}, localStat[id]);
-        if(btn.dataset.value==='up') stat.up++;
-        if(btn.dataset.value==='down') stat.down++;
-        localStat[id] = stat;
-        render(stat);
-        await setStat(id, stat);
-        await saveComment(id, { helpful: btn.dataset.value, ts: new Date().toISOString() });
-        submitToGoogleForm(id, btn.dataset.value==='up' ? '是' : '否');
-        helpfulBtns.forEach(b=>b.disabled=true);
+        if (countSpan && counts[type] !== undefined) {
+          countSpan.textContent = `(${counts[type]})`;
+        }
+
+        // 高亮顯示使用者已選項目
+        if (userChoice === type) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
       });
     });
+  }
+
+  // 3. 綁定按鈕點擊事件
+  document.querySelectorAll('.feedback .fb-btn').forEach(btn => {
+    btn.addEventListener('click', function () {
+      const section = this.closest('.feedback');
+      const articleId = section.getAttribute('data-article-id');
+      const type = this.getAttribute('data-type');
+
+      if (!articleId || !type) return;
+
+      const previousVote = userVotes[articleId];
+
+      // 狀況 A: 點擊同一個按鈕 -> 取消點讚
+      if (previousVote === type) {
+        feedbackData[articleId][type]--;
+        delete userVotes[articleId];
+      }
+      // 狀況 B: 變更選擇（例如從 dislike 改成 like）
+      else if (previousVote) {
+        feedbackData[articleId][previousVote]--;
+        feedbackData[articleId][type]++;
+        userVotes[articleId] = type;
+      }
+      // 狀況 C: 第一次點擊
+      else {
+        feedbackData[articleId][type]++;
+        userVotes[articleId] = type;
+        // 只在該篇文章「第一次」投票時送到 Google 表單，避免同一位訪客改來改去造成 Sheet 重複計入
+        submitToGoogleForm(articleId, type === 'like' ? '是' : '否');
+      }
+
+      // 儲存最新數據至 LocalStorage
+      localStorage.setItem('page_feedback_counts', JSON.stringify(feedbackData));
+      localStorage.setItem('page_user_votes', JSON.stringify(userVotes));
+
+      // 重新渲染畫面
+      renderFeedback();
+    });
   });
-})();
+
+  // 頁面載入時執行第一次渲染
+  renderFeedback();
+});
 </script>
 </body>
 </html>
